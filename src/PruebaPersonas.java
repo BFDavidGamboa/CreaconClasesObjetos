@@ -24,7 +24,7 @@ public class PruebaPersonas {
         // Type varName = object.method(    parameter  );
         String resultado = persona3.getAge("juan");
         persona3.deployName();
-
+        System.out.println(resultado);
 
 
         //Accedemos al objeto persona, y llamamos al metodo desplegarNombres
@@ -35,7 +35,7 @@ public class PruebaPersonas {
         persona1.lastName = "Gamboa";
 
         //volvemos a imprimir los valores
-        System.out.println("");
+        System.out.println("Llamada de deployName");
         persona1.deployName();
 
         //Creacion de un segundo objeto de tipo persona
@@ -43,7 +43,7 @@ public class PruebaPersonas {
         persona2.name = "Karla";
         persona2.lastName = "Gomez";
 
-        System.out.println("");
+        System.out.println("deploy");
         persona2.deployName();
 
 
