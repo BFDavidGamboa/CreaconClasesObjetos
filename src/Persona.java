@@ -10,4 +10,18 @@ public class Persona {
         System.out.println("name: " + name);
         System.out.println("lastName: " +  lastName);
     }
+
+    //Metodo que recibe y retorna un String
+    public String getAge(String nombre) {
+
+        return nombre;
+    }
+
+    //Metodo que recibe y retorna variables enteras
+    int Sumar(int a, int b){
+        return a + b;
+    }
+
+
+
 }
